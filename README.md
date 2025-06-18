@@ -14,7 +14,7 @@ cd RD_PRUNE
 
 ## Dataset Preparation
 
-Set the desired dataset location in the [tools/dataloaders.py](/tools/dataloaders.py) (L9-10):
+Atur lokasi dataset yang diinginkan dalam tools/dataloaders.py (Baris 9-10):
 ```python
 data_route = {'cifar': '/path/to/cifar',
               'imagenet': '/path/to/imagenet'}
@@ -22,9 +22,9 @@ data_route = {'cifar': '/path/to/cifar',
 
 ## Cara Run
 
-- ResNet-32 on CIFAR: 
+- ResNet-18 on CIFAR: 
 ```sh
-python iterate.py --dataset cifar --model resnet32_cifar --pruner rd --worst_case_curve --calib_size 1024
+python iterate.py --dataset cifar --model resnet18 --pruner rd --worst_case_curve --calib_size 1024
 ```
 - ResNet-50 on ImageNet:
 ```sh
