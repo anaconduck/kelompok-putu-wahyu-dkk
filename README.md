@@ -30,17 +30,3 @@ python iterate.py --dataset cifar --model resnet18 --pruner rd --worst_case_curv
 ```sh
 python iterate.py --dataset imagenet --model resnet50 --pruner rd --worst_case_curve --calib_size 256
 ```
-
-
-# Referensi
-
-```
-@InProceedings{Xu_2023_ICCV,
-    author    = {Xu, Kaixin and Wang, Zhe and Geng, Xue and Wu, Min and Li, Xiaoli and Lin, Weisi},
-    title     = {Efficient Joint Optimization of Layer-Adaptive Weight Pruning in Deep Neural Networks},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2023},
-    pages     = {17447-17457}
-}
-```
